@@ -58,10 +58,12 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              PMC <i class='fab fa-buffer'></i>
+              <p className='font-logo'>Layer's</p> <i class='fab fa-buffer'></i>
             </Link>
           </div>
-          <small className='website-rights'>PMC 2020</small>
+          <small className='website-rights'>
+            <p>Layer's © 2020</p>
+          </small>
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'

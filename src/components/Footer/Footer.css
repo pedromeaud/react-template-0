@@ -1,5 +1,9 @@
+.font-logo {
+  font-family: 'Turret Road', cursive;
+}
+
 .footer-container {
-  background-color: #242424;
+  background: linear-gradient(90deg, rgb(10, 2, 50) 0%, rgb(82, 34, 71) 100%);
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;

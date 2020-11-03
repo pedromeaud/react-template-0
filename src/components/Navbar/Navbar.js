@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            PMC <i class='fab fa-buffer'></i>
+            <p className='font-logo'>Layer's</p> <i class='fab fa-buffer'></i>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -41,13 +41,28 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                Services
+              <Link to='/react' className='nav-links' onClick={closeMobileMenu}>
+                React
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-                Products
+              <Link to='/node' className='nav-links' onClick={closeMobileMenu}>
+                Node
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/reactNative' className='nav-links' onClick={closeMobileMenu}>
+                React Native
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/python' className='nav-links' onClick={closeMobileMenu}>
+                Python
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/vue' className='nav-links' onClick={closeMobileMenu}>
+                Vue
               </Link>
             </li>
             <li className='nav-item'>
