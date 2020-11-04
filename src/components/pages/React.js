@@ -1,8 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import ReactSection from '../ReactSection/ReactSection';
 
-function Services() {
-  return <h1 className='services'>React</h1>;
+function ReactPage() {
+  return (
+    <>
+      <ReactSection />
+    </>
+  );
 }
 
-export default Services;
+export default ReactPage;

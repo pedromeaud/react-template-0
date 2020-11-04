@@ -1,8 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import VueSection from '../VueSection/VueSection';
 
-function Vue() {
-  return <h1 className='products'>VUE</h1>;
+function VuePage() {
+  return (
+    <>
+      <VueSection />
+    </>
+  );
 }
 
-export default Vue;
+export default VuePage;

@@ -1,8 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import NodeSection from '../NodeSection/NodeSection';
 
-function Node() {
-  return <h1 className='products'>NODE</h1>;
+function NodePage() {
+  return (
+    <>
+      <NodeSection />
+    </>
+  );
 }
 
-export default Node;
+export default NodePage;

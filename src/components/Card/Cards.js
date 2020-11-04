@@ -30,9 +30,9 @@ function Cards() {
               path='/services'
             />
             <CardItem
-              src='https://i.pinimg.com/originals/82/b2/3a/82b23a37bc438fc8808e1f707e0a0bc5.png'
-              text='Python is a programming language that lets you work more quickly and integrate your systems more effectively.'
-              label='Python'
+              src='https://miro.medium.com/max/588/1*15CYVZdpsxir8KLdxEZytg.png'
+              text='AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries.'
+              label='Angular'
               path='/services'
             />
             <CardItem

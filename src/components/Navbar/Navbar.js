@@ -56,8 +56,8 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/python' className='nav-links' onClick={closeMobileMenu}>
-                Python
+              <Link to='/angular' className='nav-links' onClick={closeMobileMenu}>
+                Angular
               </Link>
             </li>
             <li className='nav-item'>

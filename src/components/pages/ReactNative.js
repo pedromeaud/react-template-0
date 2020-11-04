@@ -1,8 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import ReactNativeSection from '../ReactNativeSection/ReactNativeSection';
 
-function ReactNative() {
-  return <h1 className='products'>REACT NATIVE</h1>;
+function ReactNativePage() {
+  return (
+    <>
+      <ReactNativeSection />
+    </>
+  );
 }
 
-export default ReactNative;
+export default ReactNativePage;
